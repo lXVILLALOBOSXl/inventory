@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/backgroundmain"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Añadir imagen"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                />
+
+            <ImageButton
+                android:id="@+id/ibImagenUsuarioCrear"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/anadirimagen"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etNombreUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Nombre: "
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etApellidoPaternoUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Apellido paterno: "
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etApellidoMaternoUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Apellido materno: "
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etTelefonoUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Telefono: "
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <EditText
+                android:id="@+id/etCorreoUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Correo: "
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etContrasenaUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Contraseña: "
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etConfirmarContrasenaUsuarioCrear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:hint="Confirmar contraseña: "
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/btnGuardarCrearCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Guardar!"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/buttonmain"
+                android:onClick="GuardarCrearCuenta"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+
+            <Button
+                android:id="@+id/btnLimpiarCrearCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Limpiar!"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/buttoningresar"
+                android:onClick="limpiarCrearCuenta"
+                />
+        </LinearLayout>
+
+        >
+
+    </TableLayout>
+</ScrollView>

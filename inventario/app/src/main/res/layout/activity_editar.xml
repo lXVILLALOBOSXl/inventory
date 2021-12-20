@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imagen:"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <ImageButton
+                android:id="@+id/ibEditarImagenProducto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/anadirimagen"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buscar:"/>
+
+                <EditText
+                    android:id="@+id/etBuscarProducto"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ir"
+                    android:onClick="buscarProducto"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Codigo del producto:"/>
+
+                <EditText
+                    android:id="@+id/etCodigoDelProductoEditar"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del producto:"/>
+
+                <Spinner
+                    android:id="@+id/spNombreProductoEditar"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marca del producto:"/>
+
+                <Spinner
+                    android:id="@+id/spMarcaProductoEditar"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad:"/>
+
+                <Spinner
+                    android:id="@+id/spCantidadProductoEditar"
+                    android:layout_width="329dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unidad:"/>
+
+                <Spinner
+                    android:id="@+id/spUnidadProductoEditar"
+                    android:layout_width="340dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Precio:"/>
+
+                <EditText
+                    android:id="@+id/etPrecioProductoEditar"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Piezas:"/>
+
+                <EditText
+                    android:id="@+id/etPiezasProductoEditar"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categoria:"/>
+
+                <Spinner
+                    android:id="@+id/spTipoProductoEditar"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="45dp"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:id="@+id/btnGuardarCambiosEditar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Guardar Cambios"
+                    android:onClick="guardarEditar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </TableLayout>
+</ScrollView>

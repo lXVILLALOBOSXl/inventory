@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imagen del usuario:"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibUsuario"
+        android:background="@drawable/anadirimagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etNombreUsuarioEditar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido paterno del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etApellidoPaternoUsuarioEditar"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido materno del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etApellidoMaternoUsuarioEditar"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etTelefonoUsuarioEditar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etCorreoUsuarioEditar"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etContrasenaCuentaEditar"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar contraseña del usuario:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etConfirmarContrasenaCuentaEditar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de usuario:"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/lblTipoUsuario"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="45dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/btnGuardarCambiosCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Guardar Cambios"
+            android:onClick="guardarCambiosCuenta"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

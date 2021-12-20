@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroundmain"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inventario"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:background="@drawable/buttonmain"
+        android:textColor="#000000"
+        android:onClick="iniciarSesion"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        />
+    <Button
+        android:id="@+id/btnCrearSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:background="@drawable/buttonmain"
+        android:textColor="#000000"
+        android:onClick="crearCuenta"
+        />
+
+
+
+</LinearLayout>

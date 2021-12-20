@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/backgroundmainmenu"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="45dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/btnGuardarCambiosCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Guardar"
+            android:onClick="guardarCambiosCantidad"/>
+        <Button
+            android:id="@+id/btnLimpiarCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Limpiar"
+            android:onClick="limpiarCantidad"/>
+    </LinearLayout>
+
+</LinearLayout>
